@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-heading{
+    background-color: rgb(250, 235, 215);
+    height: 60rem;
+}
+
+.logo{
+    height: 45px;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    padding: 15px 10px;
+
+}
+.spotify-heading{
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+.container nav ul{
+    display: flex;   
+    align-items: center;
+    padding-left: 40px;
+}
+
+.container nav ul li{
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 40px;
+    color: white;
+    font-weight: 600;
+}
+.inner-box{
+    background-image: url('images/bg.jpg');
+    margin-top: 40px;
+    min-height: 45rem;
+    background-color: black;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 25px auto;
+    width: 80%;  
+}
+.box-heading{
+    padding:50px 60px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+.song-select{
+    margin: 0px 50px 10px;
+    display: flex;
+    height: 50px;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.fa-circle-play{
+    cursor:pointer;
+
+}
+.song-select img{
+    border-radius: 20px;
+    width: 50px;
+    margin: 10px 0.1px;
+}
+.increase-height{
+    height: 50px;
+}
+.song-select span{
+    margin-right: 10px;
+}
+
+
+/* Bottom part  */
+.bottom{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressbar{
+    width: 80%;
+}
+.icons i{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.songBeats{
+    position: absolute;
+    left: 2vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 120px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.songBeats img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
