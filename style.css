@@ -6,7 +6,7 @@
     background-color: rgb(250, 235, 215);
     height: 60rem;
 }
-
+/* -----------------NavBar------------------ */
 .logo{
     height: 45px;
 }
@@ -35,6 +35,8 @@ nav{
     color: white;
     font-weight: 600;
 }
+
+/* ------------Content--------- */
 .inner-box{
     background-image: url('images/bg.jpg');
     margin-top: 40px;
@@ -100,6 +102,7 @@ nav{
     padding: 10px 15px;
     cursor: pointer;
 }
+
 .songBeats{
     position: absolute;
     left: 2vw;
@@ -111,5 +114,15 @@ nav{
 
 .songBeats img{
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.2s ease-in;
 }
+/* -------------Adjusting play and pause buttons------------ */
+/* .fa-duotone{
+    font-size: 37px;
+    position: absolute;
+    right: -50px;
+    
+}
+.default-play{
+    opacity: 1;
+} */

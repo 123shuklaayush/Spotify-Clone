@@ -98,18 +98,21 @@
       </div>
     </div>
     <div class="bottom">
-        <input type="range" name="range" id="myProgressbar" min="0" max="100">
+        <input type="range" name="range" id="myProgressbar" min="0" value = "0" max="100">
         <div class="icons">
         <i class="fa fa-2x fa-light fa-backward"></i>
-        <i class="fa-3x fa-regular fa-circle-play"></i>
+        <!-- Triangle wala -->
+        <i class="fa-3x fa-regular fa-play-circle" id = "masterplay"></i>
+        <!-- Two bars -->
+        <!-- <i class="fa fa-duotone fa-pause" id = "barwala" onclick="clicktocontinue"></i> -->
         <i class="fa-2x fa-solid fa-forward"></i>
     </div>
     <div class="songBeats">
-        <img src="images/playing.gif" width="40px"><span>Let Me Love You - Justin Bieber</span>
+        <img src="images/playing.gif" width="40px" id= "gif"><span>Let Me Love You - Justin Bieber</span>
     </div>
     </div>    
-<script src="https://kit.fontawesome.com/4b65e2b929.js" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/4b65e2b929.js" crossorigin="anonymous"></script>
 
   </body>
 </html>
