@@ -97,6 +97,7 @@ nav{
 }
 #myProgressbar{
     width: 80%;
+    cursor: pointer;
 }
 .icons i{
     padding: 10px 15px;
